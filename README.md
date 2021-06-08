@@ -33,7 +33,7 @@ novels.vocab是程序所使用的字典数据
 
 - adaptive_dataset.py: 实现了可在训练过程中进行扩充的数据集
 - attention_visualize.py: 用于对语句以及对应的Attention权重进行可视化。未在主程序中直接调用，仅作为写报告时的辅助程序
-- autoencoder.py: Seq2Seq之编码器，用于对语句的语义进行表示。文件中自带预训练的代码
+- autoencoder.py: Seq2Seq自编码器，用于对语句的语义进行表示。文件中自带预训练的代码
 - classifier.py: 基于TextCNN的文本风格分类器，文件中自带预训练的代码
 - config.py: 全局配置程序，所有超参数、路径等配置均在此文件中进行定义
 - dataset.py: 基于pytorch的DataSet接口实现了数据集
